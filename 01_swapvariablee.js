@@ -29,6 +29,7 @@ console.log("the value of secound before swap is:",secound)
 console.log("the value of third before swap is:",third)
 
 console.log("*****************************")
+
 fourth=first;
 first=secound;
 secound=third;
