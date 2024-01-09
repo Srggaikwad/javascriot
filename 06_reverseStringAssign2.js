@@ -1,23 +1,20 @@
 
-
-function reverseString(string)
+function reverse(str)
 {
+console.log(`the given string are:${str}`)
 
-    let char=" ";
-    for(let i=string.length-1; i>=0; i--)
+let reverse=" ";
+for(let i=str.length-1;i>=0;i--)
+{
+    let char=str.charAt(i)
+    if(char !=" ")
     {
- 
-      
-        char=char+string.charAt(i);
+        reverse=char+reverse;
     }
-    if(char!==" ")
-    {
-    console.log(char);
-    }
-
-    
-  
+}
+console.log(reverse)
 }
 
-reverseString("Hard work always pays back");
-reverseString("Soon i will be angular it champ");
+
+reverse("Hard work always pays back");
+reverse("soon i will be React IT champ")
