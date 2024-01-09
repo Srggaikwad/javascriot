@@ -65,3 +65,7 @@ for(let i=eight.length-1;i>=2;i--)
 {
    console.log(eight[i]);
 }
+
+
+
+console.log("suraj")
