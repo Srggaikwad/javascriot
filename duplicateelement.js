@@ -19,3 +19,5 @@ console.log(uniqueArr)
 const array=[11,3,4,11,4,7,3]
 
 getUnique(array)
+
+console.log("******************Step 2*****************************")
